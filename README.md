@@ -36,7 +36,7 @@ we can use it in vue
   @Component({components: {
   }})
   
-  export default class home extends Vue {
+  export default class Home extends Vue {
     private mounted () {
       const container:HTMLElement = this.$refs.container
       this.GL = new ThreeWorld(container, this.endCallBack, this.setIndex)
