@@ -1,0 +1,29 @@
+{
+  "name": "particlesystem",
+  "version": "1.0.0",
+  "description": "a particle system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/y2hlbg/ParticleSystem.git"
+  },
+  "keywords": [
+    "threejs",
+    "particle",
+    "system"
+  ],
+  "author": "y2hlbg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y2hlbg/ParticleSystem/issues"
+  },
+  "homepage": "https://github.com/y2hlbg/ParticleSystem#readme",
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "axios": "^0.21.1",
+    "three": "^0.127.0"
+  }
+}
